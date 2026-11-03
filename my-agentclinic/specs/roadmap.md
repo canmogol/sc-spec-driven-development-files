@@ -2,7 +2,7 @@
 
 Tiny vertical slices. Each phase is small enough to finish in one sitting and leaves the app running.
 
-## Phase 1. Hello clinic
+## Phase 1. Hello clinic ✅
 
 - Hono server on Node renders "Welcome to AgentClinic" at `/`
 - `dev`, `start`, and `test` scripts
