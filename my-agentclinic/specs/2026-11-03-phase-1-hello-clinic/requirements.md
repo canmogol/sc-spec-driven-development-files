@@ -23,6 +23,6 @@
 
 ## Context
 
-- Roadmap: [Phase 1. Hello clinic](../roadmap.md#phase-1-hello-clinic).
+- Roadmap: [Phase 1. Hello clinic](../roadmap.md).
 - `mission.md`: the "Small, working steps" principle means the app must run at the end of this phase; the home page copy comes from its opening lines and the "Delight in the details" principle.
 - `tech-stack.md`: TypeScript (strict), Hono with `@hono/node-server`, Hono JSX, Vitest with `app.request()`, `tsx watch`, ESLint + Prettier, npm. Source lives in `src/`.
