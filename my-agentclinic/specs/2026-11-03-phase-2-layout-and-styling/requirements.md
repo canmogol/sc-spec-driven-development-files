@@ -26,7 +26,7 @@
 
 ## Context
 
-- Roadmap: [Phase 2. Layout and styling](../roadmap.md#phase-2-layout-and-styling).
+- Roadmap: [Phase 2. Layout and styling](../roadmap.md).
 - `mission.md`: "Delight in the details" sets the whimsical copy and playful look. "Small, working steps" means each change keeps the app running. "Simple over clever" rules out a CSS framework.
 - `tech-stack.md`: Hono JSX for the layout. Plain CSS with custom properties and flexbox/grid. Static assets live in `public/`. Vitest uses `app.request()`.
 
