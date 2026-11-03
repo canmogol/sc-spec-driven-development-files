@@ -8,7 +8,7 @@ Tiny vertical slices. Each phase is small enough to finish in one sitting and le
 - `dev`, `start`, and `test` scripts
 - One Vitest route test
 
-## Phase 2. Layout and styling
+## Phase 2. Layout and styling ✅
 
 - Shared JSX layout (header, nav, footer)
 - Base stylesheet with the clinic's look
