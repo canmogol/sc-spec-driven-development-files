@@ -9,8 +9,8 @@
 - Basic small-screen support: viewport meta, a max-width container, a nav that wraps.
 
 **Out** (later phases)
-- The pages behind the Agents, Ailments, Therapies, Appointments and Dashboard links (Phases 4–12).
-- A full responsive pass, dark mode, empty states and error pages (Phase 13).
+- The pages behind the Agents, Ailments, Therapies, Appointments and Dashboard links (Phases 4–11).
+- A full responsive pass, dark mode, empty states and error pages (Phase 12).
 
 ## Decisions
 
@@ -23,7 +23,7 @@
 - **The layout takes a `current` prop, and the nav marks that section with `aria-current="page"`.** Users can see where they are, and screen readers announce it.
 - **The header, main area and footer are separate components in `src/components/`** (`Header`, `Main`, `Footer`), which `Layout` composes. `Main` owns the `<main>` element, so pages render only their content. Each piece can be read and tested on its own.
 - **The CSS is a static file served from `public/`.** This follows the tech stack's "plain CSS served as a static file" and the `public/` convention.
-- **Basic responsiveness only.** The full responsive pass stays in Phase 13; this phase only avoids a broken layout on phones.
+- **Basic responsiveness only.** The full responsive pass stays in Phase 12; this phase only avoids a broken layout on phones.
 
 ## Context
 

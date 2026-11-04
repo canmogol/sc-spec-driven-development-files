@@ -19,51 +19,48 @@ Tiny vertical slices. Each phase is small enough to finish in one sitting and le
 - Migration runner
 - Health check that touches the DB
 
-## Phase 4. Agents list
+## Phase 4. Agents list and detail
 
 - `agents` table with seed data
 - `/agents` lists them
-
-## Phase 5. Agent detail
-
 - `/agents/:id` shows one agent's profile
 
-## Phase 6. Register an agent
+## Phase 5. Register an agent
 
 - Form to add a new agent
 - Validation
 
-## Phase 7. Ailments catalog
+## Phase 6. Ailments catalog
 
 - `ailments` table
 - `/ailments` page
 
-## Phase 8. Agent ailments
+## Phase 7. Agent ailments
 
 - Link ailments to agents
 - Show them on the agent detail page
 
-## Phase 9. Therapies catalog
+## Phase 8. Therapies catalog
 
 - `therapies` table
 - `/therapies` page
 - Show which ailments each therapy treats
 
-## Phase 10. Book an appointment
+## Phase 9. Book an appointment
 
 - Form to book an agent for a therapy at a time slot
 
-## Phase 11. Appointments list
+## Phase 10. Appointments list
 
 - `/appointments` shows upcoming appointments
 - Cancel an appointment
 
-## Phase 12. Staff dashboard
+## Phase 11. Staff dashboard
 
 - `/dashboard` with counts
 - Today's schedule
 
-## Phase 13. Polish
+## Phase 12. Polish
 
 - Responsive layout
 - Empty states
