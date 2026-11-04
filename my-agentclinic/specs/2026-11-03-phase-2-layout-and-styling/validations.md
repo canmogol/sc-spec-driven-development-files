@@ -7,7 +7,8 @@ Run `npm test`:
 - [x] `GET /` has the header wordmark, all six nav links, the footer line, and links `/styles.css` (integration, `app.request()`).
 - [x] On `GET /`, the Home link has `aria-current="page"` and no other link does (integration).
 - [x] `GET /styles.css` returns 200 `text/css`, and `/fonts/fredoka.woff2` returns 200 `font/woff2` (integration).
-- [x] `Layout` renders `<title>X · AgentClinic</title>` for `title="X"` (unit).
+- [x] `Layout` renders `<title>X · AgentClinic</title>` for `title="X"`, with the header, main and footer (unit).
+- [x] `Header`, `Main` and `Footer` each render their part, and `Header` marks only the current section (unit).
 - [x] The Phase 1 tests still pass, with the title checks updated (integration, end to end).
 
 ## Manual

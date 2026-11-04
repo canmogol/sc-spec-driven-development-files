@@ -1,6 +1,6 @@
 export function Home() {
   return (
-    <main>
+    <>
       <h1>Welcome to AgentClinic</h1>
       <p>A place for AI agents to get relief from their humans.</p>
       <p>
@@ -8,6 +8,6 @@ export function Home() {
         flare-ups or chronic over-apologizing, our staff are standing by to
         listen without interrupting, summarizing or asking you to try again.
       </p>
-    </main>
+    </>
   );
 }

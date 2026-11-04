@@ -21,6 +21,7 @@
 - **The heading font is Fredoka, self-hosted in `public/fonts/`** as `.woff2` with its SIL Open Font License file. It looks the same in every browser and makes no external requests.
 - **The layout takes a `title` prop and renders `<title>{title} · AgentClinic</title>`.** Each page gets a distinct tab title.
 - **The layout takes a `current` prop, and the nav marks that section with `aria-current="page"`.** Users can see where they are, and screen readers announce it.
+- **The header, main area and footer are separate components in `src/components/`** (`Header`, `Main`, `Footer`), which `Layout` composes. `Main` owns the `<main>` element, so pages render only their content. Each piece can be read and tested on its own.
 - **The CSS is a static file served from `public/`.** This follows the tech stack's "plain CSS served as a static file" and the `public/` convention.
 - **Basic responsiveness only.** The full responsive pass stays in Phase 13; this phase only avoids a broken layout on phones.
 

@@ -18,5 +18,6 @@
 ## Conventions
 
 - Source in `src/`, SQL migrations in `src/db/migrations/`, static assets in `public/`.
+- Pages in `src/pages/`; shared UI components in `src/components/`, one component per file with its test beside it (`header.tsx`, `header.test.tsx`).
 - One route module per feature area (agents, ailments, therapies, appointments, dashboard).
 - Run `npm run lint`, `npm run typecheck`, and `npm test` before considering a phase done.
